@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+*{
+    padding: 0px;
+    margin: 0px; 
+    box-sizing: border-box; 
+    text-decoration: none; 
+    -webkit-tap-highlight-color:transparent;
+}
+body{
+    font-family: 'El Messiri', sans-serif;
+}
