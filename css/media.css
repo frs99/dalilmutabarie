@@ -12,7 +12,6 @@
         width: 100%;
         left: 0;
         top:60px;
-        border-bottom: solid 1px #d8d8d8;
         overflow: hidden;
         height:0;
         transition: all 0.5s;
@@ -34,5 +33,40 @@
     }
     header .header-two .header-two-all .close-open .open{
         display: block;
+    }
+
+    /* FOR HEADER THREE */
+    header .header-three{
+        height:auto;
+    }
+    header .header-three .header-three-all{
+        height:auto;
+        display: block;
+        padding: 15px 0;
+    }
+    header .header-three .header-three-all .search{
+        width:100%;
+        margin: 0;
+    }
+    header .header-three .header-three-all .search input[type=search]{
+        width:90%;
+    }
+    header .header-three .header-three-all .btn{
+        width:100%;
+        justify-content: inherit;
+        height:30px;
+        margin:0;
+        margin-top:15px;
+    }
+    header .header-three .header-three-all .btn a{
+        width:48%;
+        justify-content: center;
+        height:30px;
+    }
+
+    /* FOR MAIN */
+    /* MAIN BACK*/
+    main .main-back{
+        background-position: center;
     }
 }
