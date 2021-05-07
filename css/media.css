@@ -13,8 +13,8 @@
         left: 0;
         top:60px;
         overflow: hidden;
-        height:0;
-        transition: all 0.5s;
+        max-height:0;
+        transition: all 0.25s;
     }
     header .header-two .header-two-all nav ul{
         display: block;
@@ -42,7 +42,8 @@
     header .header-three .header-three-all{
         height:auto;
         display: block;
-        padding: 15px 0;
+        padding: 15px;
+        width:100%;
     }
     header .header-three .header-three-all .search{
         width:100%;
