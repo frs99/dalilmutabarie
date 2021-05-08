@@ -236,7 +236,112 @@ main{
 }
 main .main-back{
   background-image: url(../img/background.jpg);
+  background-position: bottom;
   width:100%;
-  height:700px;
+  height:600px;
   background-size: cover;
+  display: flex;
+}
+/* MAIN AND BUG BOX FOR INFO - ALL BOXS */
+main .main-back .allbox-info{
+  width:90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 1230px;
+  flex-wrap: wrap;
+  margin-bottom: -100px;
+}
+
+/* BIG BOX */
+main .main-back .allbox-info .bigbox-one{
+  background-color: #EF4545;
+  padding:35px;
+  border-radius:7px;
+  margin: 0 auto;
+}
+main .main-back .allbox-info .bigbox-one .bigbox-two{
+  border: solid 2px #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  padding:20px;
+}
+main .main-back .allbox-info .bigbox-one .bigbox-two img{
+  float: right;
+  position: relative;
+  width:50px;
+  margin-bottom: 15px;
+}
+main .main-back .allbox-info .bigbox-one .bigbox-two h1{
+  clear: both;
+  font-size:30px;
+}
+main .main-back .allbox-info .bigbox-one .bigbox-two p{
+  font-size:15px;
+  margin-top: 15px;
+  line-height: 25px;
+}
+main .main-back .allbox-info .bigbox-one .bigbox-two .learn-more{
+  display: flex;
+  justify-content: flex-end;
+}
+main .main-back .allbox-info .bigbox-one .bigbox-two .learn-more a{
+  display:inline-block;
+  padding: 8px 10px;
+  border: solid 2px #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-top: 15px;
+  transition: all 0.5s;
+} main .main-back .allbox-info .bigbox-one .bigbox-two .learn-more a:hover{
+  background-color: #ffffff; 
+  color: #EF4545; border: 
+  solid 2px #ffffff;
+}
+
+/* MIN BOX */
+main .main-back .allbox-info .minbox-one{
+  background-color: #ffffff;
+  padding:35px;
+  border-radius:7px;
+  margin: 0 auto;
+}
+main .main-back .allbox-info .minbox-one .minbox-two{
+  border: solid 2px #EF4545;
+  border-radius: 5px;
+  color: #EF4545;
+  padding:20px;
+}
+main .main-back .allbox-info .minbox-one .minbox-two img{
+  float: right;
+  position: relative;
+  width:50px;
+  margin-bottom: 15px;
+}
+main .main-back .allbox-info .minbox-one .minbox-two h1{
+  clear: both;
+  font-size:30px;
+}
+main .main-back .allbox-info .minbox-one .minbox-two p{
+  font-size:15px;
+  margin-top: 15px;
+  line-height: 25px;
+}
+main .main-back .allbox-info .minbox-one .minbox-two .learn-more{
+  display: flex;
+  justify-content: flex-end;
+}
+main .main-back .allbox-info .minbox-one .minbox-two .learn-more a{
+  display:inline-block;
+  padding: 8px 10px;
+  border: solid 2px #EF4545;
+  border-radius: 5px;
+  color: #EF4545;
+  margin-top: 15px;
+  transition: all 0.5s;
+} main .main-back .allbox-info .minbox-one .minbox-two .learn-more a:hover{
+  background-color: #EF4545; 
+  color: #ffffff; 
+  border: solid 2px #EF4545;
 }
