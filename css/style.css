@@ -256,10 +256,10 @@ main .main-back .allbox-info{
 
 /* BIG BOX */
 main .main-back .allbox-info .bigbox-one{
+  max-width:373px;
   background-color: #EF4545;
   padding:35px;
   border-radius:7px;
-  margin: 0 auto;
 }
 main .main-back .allbox-info .bigbox-one .bigbox-two{
   border: solid 2px #ffffff;
@@ -302,10 +302,11 @@ main .main-back .allbox-info .bigbox-one .bigbox-two .learn-more a{
 
 /* MIN BOX */
 main .main-back .allbox-info .minbox-one{
+  max-width:374px;
   background-color: #ffffff;
   padding:35px;
   border-radius:7px;
-  margin: 0 auto;
+  border: solid 0.5px #dadce0;
 }
 main .main-back .allbox-info .minbox-one .minbox-two{
   border: solid 2px #EF4545;
