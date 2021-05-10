@@ -3,7 +3,6 @@
     main .main-back .allbox-info{
         display:block;
         position: relative;
-        padding:50px 0;
     }
     main .main-back .allbox-info .bigbox-one{
         margin:25px auto;
@@ -103,6 +102,27 @@
         display: block;
         margin: 40px auto;
     }
+    /**/
+    main .main-back .alltext-info{
+        padding:100px 0;
+    }
+    main .main-back .alltext-info .startinfo h1{
+        font-size:45px;
+        height:auto;
+        padding: 0;
+    }
+    main .main-back .alltext-info .startinfo p{
+        font-size:15px;
+        margin:15px auto;
+        line-height:25px;
+        width:78%;
+    }
+    main .main-back .alltext-info .startbtn{
+        width: 100%;
+    }
+    main .main-back .alltext-info .startbtn .btn-video{
+        margin-top:15px;
+    }
 }
 @media (max-width:480px){
     main .main-back .allbox-info{
@@ -125,23 +145,6 @@
         line-height: 22px;
     }
 
-    /**/
-    main .main-back .alltext-info .startinfo h1{
-        font-size:45px;
-        height:auto;
-        padding: 0;
-    }
-    main .main-back .alltext-info .startinfo p{
-        font-size:15px;
-        margin:15px auto;
-        line-height:25px;
-        width:78%;
-    }
-    main .main-back .alltext-info .startbtn{
-        width: 100%;
-    }
-    main .main-back .alltext-info .startbtn .btn-video{
-        margin-top:15px;
-    }
+    
   
 }
