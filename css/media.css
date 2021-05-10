@@ -14,12 +14,14 @@
         margin:25px auto;
         display: inline-block;
         width: 375px;
+        max-height: none;
     }
     main .main-back .allbox-info .boxone{
         left: 0;
     }
     main .main-back .allbox-info .boxtwo{
        right: 0;
+
     }
 }
 @media (max-width:900px){
@@ -91,7 +93,7 @@
     /* FOR MAIN */
     /* MAIN BACK*/
     main .main-back{
-        background-position: center;
+        background-position: revert;
     }
     main .main-back .allbox-info .bigbox-one{
         margin: 40px auto;
@@ -121,6 +123,25 @@
         font-size: 15px;
         overflow: hidden;
         line-height: 22px;
+    }
+
+    /**/
+    main .main-back .alltext-info .startinfo h1{
+        font-size:45px;
+        height:auto;
+        padding: 0;
+    }
+    main .main-back .alltext-info .startinfo p{
+        font-size:15px;
+        margin:15px auto;
+        line-height:25px;
+        width:78%;
+    }
+    main .main-back .alltext-info .startbtn{
+        width: 100%;
+    }
+    main .main-back .alltext-info .startbtn .btn-video{
+        margin-top:15px;
     }
   
 }
