@@ -1,4 +1,9 @@
 @charset "utf-8";
+@media (min-width:1700px){
+    main .main-back{
+        height:780px;
+    }
+}
 @media (max-width:1250px){
     main .main-back .allbox-info{
         display:block;
@@ -92,7 +97,7 @@
     /* FOR MAIN */
     /* MAIN BACK*/
     main .main-back{
-        background-position: revert;
+        background-position:center;
     }
     main .main-back .allbox-info .bigbox-one{
         margin: 40px auto;
