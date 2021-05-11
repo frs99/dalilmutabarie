@@ -290,7 +290,9 @@ main .main-back .alltext-info .startbtn .btn-video p{
 main .main-back .alltext-info .startbtn .btn-video i{
   margin-right:5px;
 }
-/* MAIN AND BUG BOX FOR INFO - ALL BOXS */
+
+
+/* MAIN AND BIG BOX FOR INFO - ALL BOXS */
 main .main-back .allbox-info{
   width:90%;
   margin: 0 auto;
@@ -393,4 +395,8 @@ main .main-back .allbox-info .minbox-one .minbox-two .learn-more a{
   background-color: #EF4545; 
   color: #ffffff; 
   border: solid 2px #EF4545;
+}
+main .main-back .allbox-info i{
+  position: relative;
+  top: 1px;
 }
