@@ -133,7 +133,6 @@
 @media (max-width:480px){
     main .main-back .allbox-info{
         padding: 0;
-        width: 100%;
     }
     main .main-back .allbox-info .bigbox-one{
         width:95%;
