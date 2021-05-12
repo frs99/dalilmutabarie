@@ -133,14 +133,14 @@
 @media (max-width:480px){
     main .main-back .allbox-info{
         padding: 0;
+        width: 100%;
     }
     main .main-back .allbox-info .bigbox-one{
         width:95%;
-        padding:15px;
+        padding:25px;
     }
     main .main-back .allbox-info .bigbox-one .bigbox-two{
         padding:15px;
-        border: solid 4px #FFFFFD;
     }
     main .main-back .allbox-info .bigbox-one .bigbox-two p{
         font-size: 15px;
@@ -149,11 +149,10 @@
     }
     main .main-back .allbox-info .minbox-one{
         width:95%;
-        padding:15px;
+        padding:25px;
     }
     main .main-back .allbox-info .minbox-one .minbox-two{
-        padding: 15px;
-        border: solid 4px #EF4545;
+        padding:15px;
     }
     main .main-back .allbox-info .minbox-one .minbox-two p{
         font-size: 15px;
