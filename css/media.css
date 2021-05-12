@@ -105,7 +105,7 @@
     main .main-back .allbox-info .minbox-one{
         position: static;
         display: block;
-        margin: 40px auto;
+        /*margin: 40px auto;*/
     }
     /**/
     main .main-back .alltext-info{
@@ -124,6 +124,7 @@
     }
     main .main-back .alltext-info .startbtn{
         width: 100%;
+        height: 0;
     }
     main .main-back .alltext-info .startbtn .btn-video{
         margin-top:15px;
@@ -135,6 +136,11 @@
     }
     main .main-back .allbox-info .bigbox-one{
         width:95%;
+        padding:15px;
+    }
+    main .main-back .allbox-info .bigbox-one .bigbox-two{
+        padding:15px;
+        border: solid 4px #FFFFFD;
     }
     main .main-back .allbox-info .bigbox-one .bigbox-two p{
         font-size: 15px;
@@ -143,13 +149,23 @@
     }
     main .main-back .allbox-info .minbox-one{
         width:95%;
+        padding:15px;
+    }
+    main .main-back .allbox-info .minbox-one .minbox-two{
+        padding: 15px;
+        border: solid 4px #EF4545;
     }
     main .main-back .allbox-info .minbox-one .minbox-two p{
         font-size: 15px;
         overflow: hidden;
         line-height: 22px;
     }
-
-    
-  
+}
+@media (max-width:310px){
+    header .header-three .header-three-all .btn a{
+        font-size:12px;
+    }
+    main .main-back .alltext-info .startinfo h1{
+        font-size:25px;
+    }
 }
