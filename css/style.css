@@ -234,7 +234,7 @@ main{
   max-width: 2049px;
   margin: 0 auto;
 }
-main .main-back{
+main .all-text{
   background-image: url(../img/background.jpg);
   background-position:center;
   width:100%;
@@ -302,7 +302,7 @@ main .main-back .allbox-info{
   max-width: 1230px;
   flex-wrap: wrap;
   align-items: flex-end;
-  
+  margin-top: -110px;
 }
 /* BIG BOX */
 main .main-back .allbox-info .bigbox-one{
@@ -352,8 +352,8 @@ main .main-back .allbox-info .bigbox-one .bigbox-two .learn-more a{
 
 /* MIN BOX */
 main .main-back .allbox-info .minbox-one{
-  max-width: 374px;
-  max-height: 408px;
+  max-width:374px;
+  /*max-height: 408px;*/
   background-color: #ffffff;
   padding:35px;
   border-radius:7px;
@@ -379,6 +379,7 @@ main .main-back .allbox-info .minbox-one .minbox-two p{
   font-size:15px;
   margin-top: 15px;
   line-height: 25px;
+  min-width: 258px;
 }
 main .main-back .allbox-info .minbox-one .minbox-two .learn-more{
   display: flex;
@@ -400,4 +401,73 @@ main .main-back .allbox-info .minbox-one .minbox-two .learn-more a{
 main .main-back .allbox-info i{
   position: relative;
   top:1px;
+}
+
+/* MAIN - TITLE */
+main .title{
+  font-size: 100px;
+  color: #FF7171;
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+  padding:170px 0;
+}
+
+/* FOR SEARCH DONOR */
+/* info */
+main .search-donor{
+  width:80%;
+  max-width: 1091px;
+  padding: 30px;
+  border-left:solid 2px #FF7171;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .search-donor .sdonor-info{
+  color: #FF7171;
+}
+main .search-donor .sdonor-info .tl{
+  font-size:35px;
+  font-weight:bold;
+}
+main .search-donor .sdonor-info .ds{
+  font-size:18px;
+  margin-top:10px;
+  line-height: 20px;
+}
+main .search-donor .sdonor-info .nt{
+  font-size:14px;
+  padding: 10px;
+  border-left: solid 2px #FF7171;
+  background-color: #FFF3F3;
+  width: 277px;
+  line-height: 20px;
+  margin-top:20px;
+  border-radius: 3px;
+}
+/* input */
+main .search-donor .inpt-search input{
+  display:block;
+  border: solid 1px #FF7171;
+  width:100%;
+  height:40px;
+  padding:0 10px;
+  border-radius:5px;
+  margin-top:25px;
+  font-size:14px;
+}
+main .search-donor .inpt-search input[type="text"]{
+  color: #FF7171;
+} main .search-donor .inpt-search input[type="text"]:focus{outline: none}
+main .search-donor .inpt-search input[type="submit"]{
+  background-color: #FF7171;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.5s;
+} main .search-donor .inpt-search input[type="submit"]:hover{background-color: #ff7171de;}
+main .search-donor img{
+  width:300px;
 }

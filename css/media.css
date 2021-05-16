@@ -1,32 +1,23 @@
 @charset "utf-8";
 @media (min-width:1700px){
-    main .main-back{
+    main .all-text{
         height:780px;
+    }
+    main .main-back .allbox-info{
+        margin-top: -285px;
     }
 }
 @media (max-width:1250px){
     main .main-back .allbox-info{
-        display:block;
-        position: relative;
+        display: block;
     }
     main .main-back .allbox-info .bigbox-one{
-        margin:25px auto;
-        width: 370px;
+       margin:30px auto 15px auto;
     }
     main .main-back .allbox-info .minbox-one{
-        position: absolute;
-        margin:25px auto;
-        display: inline-block;
-        width: 375px;
-        max-height: none;
+        margin: 30px auto 30px auto;
     }
-    main .main-back .allbox-info .boxone{
-        left: 0;
-    }
-    main .main-back .allbox-info .boxtwo{
-       right: 0;
 
-    }
 }
 @media (max-width:900px){
     header .header-one .header-one-all .help-policy{
@@ -129,10 +120,20 @@
     main .main-back .alltext-info .startbtn .btn-video{
         margin-top:15px;
     }
+    /* FOR MAIN SEARCH DONOR */
+    main .title{
+        font-size: 45px;
+    }
+    main .search-donor{
+        padding: 0;
+        border: none;
+        width: 95%;
+    }
 }
 @media (max-width:480px){
     main .main-back .allbox-info{
         padding: 0;
+        margin-top: -169px;
     }
     main .main-back .allbox-info .bigbox-one{
         width:95%;
@@ -167,3 +168,4 @@
         font-size:25px;
     }
 }
+
