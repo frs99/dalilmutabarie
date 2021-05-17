@@ -120,14 +120,22 @@
     main .main-back .alltext-info .startbtn .btn-video{
         margin-top:15px;
     }
-    /* FOR MAIN SEARCH DONOR */
+    /* FOR MAIN DONOR */
     main .title{
         font-size: 45px;
     }
-    main .search-donor{
+    main .search-donor, .imdonate{
         padding: 0;
         border: none;
         width: 95%;
+    }
+    main .imdonate img{
+        margin-top:15px;
+    }
+
+    /* defines */
+    main .defines article{
+        margin-top:30px;
     }
 }
 @media (max-width:480px){
@@ -158,6 +166,7 @@
         font-size: 15px;
         overflow: hidden;
         line-height: 22px;
+        min-width:0;
     }
 }
 @media (max-width:310px){

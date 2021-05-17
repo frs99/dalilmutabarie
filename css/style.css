@@ -415,7 +415,7 @@ main .title{
 
 /* FOR SEARCH DONOR */
 /* info */
-main .search-donor{
+main .search-donor, .imdonate{
   width:80%;
   max-width: 1091px;
   padding: 30px;
@@ -426,30 +426,31 @@ main .search-donor{
   justify-content: space-around;
   flex-wrap: wrap;
 }
-main .search-donor .sdonor-info{
+main .search-donor .sdonor-info, .imdonate .imdonate-info{
   color: #FF7171;
+  width:340px;
 }
-main .search-donor .sdonor-info .tl{
+main .search-donor .sdonor-info .tl, .imdonate .imdonate-info .tl{
   font-size:35px;
   font-weight:bold;
 }
-main .search-donor .sdonor-info .ds{
+main .search-donor .sdonor-info .ds, .imdonate .imdonate-info .ds{
   font-size:18px;
   margin-top:10px;
-  line-height: 20px;
+  line-height:25px;
 }
-main .search-donor .sdonor-info .nt{
+main .search-donor .sdonor-info .nt, .imdonate .imdonate-info .nt{
   font-size:14px;
   padding: 10px;
   border-left: solid 2px #FF7171;
   background-color: #FFF3F3;
-  width: 277px;
+  width:100%;
   line-height: 20px;
   margin-top:20px;
   border-radius: 3px;
 }
 /* input */
-main .search-donor .inpt-search input{
+main .search-donor .inpt-search input, .imdonate .inpt-imdonate input{
   display:block;
   border: solid 1px #FF7171;
   width:100%;
@@ -458,16 +459,57 @@ main .search-donor .inpt-search input{
   border-radius:5px;
   margin-top:25px;
   font-size:14px;
-}
-main .search-donor .inpt-search input[type="text"]{
+}  main .search-donor .inpt-search input:focus, .imdonate .inpt-imdonate input:focus{outline: none}
+main .search-donor .inpt-search input[type="text"], .imdonate .inpt-imdonate input[type="text"]{
   color: #FF7171;
-} main .search-donor .inpt-search input[type="text"]:focus{outline: none}
-main .search-donor .inpt-search input[type="submit"]{
+}
+main .search-donor .inpt-search input[type="submit"], .imdonate .inpt-imdonate input[type="submit"]{
   background-color: #FF7171;
   color: #ffffff;
   cursor: pointer;
   transition: all 0.5s;
-} main .search-donor .inpt-search input[type="submit"]:hover{background-color: #ff7171de;}
-main .search-donor img{
+} main .search-donor .inpt-search input[type="submit"]:hover, .imdonate .inpt-imdonate input[type="submit"]:hover{background-color: #ff7171de;}
+main .search-donor img, .imdonate img{
   width:300px;
+}
+main .imdonate{
+  margin-top:100px;
+}
+
+/* defines */
+main .defines{
+  width:95%;
+  max-width: 1295px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .defines article{
+  text-align: center;
+}
+main .defines article .d-icon{
+  width:150px;
+  height: 150px;
+  background-color: #EF4545;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+}
+main .defines article .d-icon img{
+  width:60px;
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  margin: auto;
+}
+main .defines article h4{
+  color: #EF4545;
+  font-size: 26px;
+  margin-top: 15px;
+}
+main .defines article p{
+  color: #FF7171;
+  font-size:14px;
+  margin-top: 15px;
+  line-height: 20px;
 }
