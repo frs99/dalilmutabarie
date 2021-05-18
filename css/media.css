@@ -137,7 +137,7 @@
     main .defines article{
         margin-top:30px;
         width: 90%;
-        margin: 0 auto;
+        margin: 30px auto;
     }
     /* OFFER */
     main .offer .all-offer{
@@ -149,6 +149,7 @@
     }
     main .offer .all-offer .offer-icon{
         width:90%;
+        height:150px;
         margin: 0 auto;
         border-radius: 0;
         border-top-right-radius: 5px;

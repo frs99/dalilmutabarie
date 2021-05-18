@@ -521,7 +521,7 @@ main .offer{
 }
 main .offer .all-offer{
   margin: 0 auto;
-  width:50%;
+  width:60%;
 }
 main .offer .all-offer article{
   display: flex;
