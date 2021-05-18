@@ -513,3 +513,50 @@ main .defines article p{
   margin-top: 15px;
   line-height: 20px;
 }
+
+/* FOR OFFER */
+main .offer{
+  width:95%;
+  margin: 0 auto;
+}
+main .offer .all-offer{
+  margin: 0 auto;
+  width:50%;
+}
+main .offer .all-offer article{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:10px auto;
+}
+main .offer .all-offer .offer-icon{
+  background-color:#EF4545;
+  position: relative;
+  width:100px;
+  height: 100px;
+  border-top-left-radius:5px;
+  border-bottom-left-radius: 5px;
+}
+main .offer .all-offer .offer-icon img{
+  width:60px;
+  position: absolute;
+  top: 0;bottom: 0;left: 0;right: 0;
+  margin: auto;
+}
+main .offer .all-offer .offer-info{
+  border: solid 2px #EF4545;
+  padding: 15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width:80%;
+}
+main .offer .all-offer .offer-info h4{
+  color: #EF4545;
+  font-size: 18px;
+}
+main .offer .all-offer .offer-info p{
+  color: #FF7171;
+  font-size: 14px;
+  margin-top:5px;
+  line-height: 20px;
+}
