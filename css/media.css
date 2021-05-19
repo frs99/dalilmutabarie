@@ -167,7 +167,7 @@
         width: 100%;
     }
     main .subscribe-not .all-not input[type="email"]{
-        width: 100%;
+        width:95%;
     }
     main .subscribe-not .all-not input[type="submit"]{
         width:50%;
