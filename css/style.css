@@ -527,7 +527,10 @@ main .offer .all-offer article{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin:10px auto;
+  margin:0 auto;
+}
+main .offer .all-offer .mrgn{
+  margin: 30px 0;
 }
 main .offer .all-offer .offer-icon{
   background-color:#EF4545;
@@ -559,4 +562,50 @@ main .offer .all-offer .offer-info p{
   font-size: 14px;
   margin-top:5px;
   line-height: 20px;
+}
+
+/* Subscribe to notifications */
+main .subscribe-not{
+  width:95%;
+  margin: 0 auto;
+}
+main .subscribe-not .all-not{
+  width:80%;
+  margin: 0 auto;
+  padding-bottom: 170px;
+}
+main .subscribe-not .all-not input[type="email"]{
+  display: block;
+  border: solid 1px #FF7171;
+  width:60%;
+  max-width:630px;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 0 auto;
+} main .subscribe-not .all-not input[type="email"]:focus{outline: none;}
+main .subscribe-not .all-not input[type="submit"]{
+  display: block;
+  background-color: #FF7171;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.5s;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin:30px auto;
+} main .subscribe-not .all-not input[type="submit"]:hover{background-color: #ff7171de;}
+main .subscribe-not .all-not p{
+  font-size: 14px;
+  padding: 10px;
+  border-left: solid 2px #FF7171;
+  background-color: #FFF3F3;
+  color: #EF4545;
+  width: 100%;
+  line-height: 20px;
+  border-radius: 3px;
+  width:40%;
+  margin: 0 auto;
 }

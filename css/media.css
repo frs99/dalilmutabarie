@@ -145,7 +145,6 @@
     }
     main .offer .all-offer article{
         display: block;
-        margin:20px auto;
     }
     main .offer .all-offer .offer-icon{
         width:90%;
@@ -161,6 +160,21 @@
         border-radius: 0;
         border-bottom-right-radius: 5px;
         border-bottom-left-radius: 5px;
+    }
+
+    /* Subscribe to notifications */
+    main .subscribe-not .all-not{
+        width: 100%;
+    }
+    main .subscribe-not .all-not input[type="email"]{
+        width: 100%;
+    }
+    main .subscribe-not .all-not input[type="submit"]{
+        width:50%;
+    }
+    main .subscribe-not .all-not p{
+        font-size: 12px;
+        width:95%;
     }
 }
 @media (max-width:480px){
