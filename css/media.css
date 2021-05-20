@@ -174,7 +174,22 @@
     }
     main .subscribe-not .all-not p{
         font-size: 12px;
-        width:95%;
+        width:50%;
+    }
+
+    /* footer */
+    footer .all-footer nav{
+        display: block;
+        height: auto;
+        width:100%;
+    }
+    footer .all-footer nav ul{
+        margin:40px 30px;
+    }
+    footer .all-footer nav .copyright{
+        position: static;
+        font-size: 12px;
+        text-align: center;
     }
 }
 @media (max-width:480px){
@@ -206,6 +221,9 @@
         overflow: hidden;
         line-height: 22px;
         min-width:0;
+    }
+    main .subscribe-not .all-not p{
+        width: 95%;
     }
 }
 @media (max-width:310px){
