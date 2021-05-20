@@ -688,3 +688,9 @@ footer .all-footer nav .copyright{
 footer .all-footer nav .copyright a{
   color: #EF4545;
 }
+
+footer .end{
+  width:100%;
+  background-color: #EF4545;
+  height:15px;
+}
