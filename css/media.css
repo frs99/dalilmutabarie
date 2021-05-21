@@ -17,7 +17,17 @@
     main .main-back .allbox-info .minbox-one{
         margin: 30px auto 30px auto;
     }
+     /* defines */
+     main .defines{
+        display: block;
+    }
 
+     main .defines article{
+        margin-top:30px;
+        width: 90%;
+        margin: 30px auto;
+    }
+   
 }
 @media (max-width:900px){
     header .header-one .header-one-all .help-policy{
@@ -131,13 +141,6 @@
     }
     main .imdonate img{
         margin-top:15px;
-    }
-
-    /* defines */
-    main .defines article{
-        margin-top:30px;
-        width: 90%;
-        margin: 30px auto;
     }
     /* OFFER */
     main .offer .all-offer{
