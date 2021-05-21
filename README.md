@@ -23,4 +23,5 @@
 <p>تكويد المشروع: <a href="https://github.com/frscodes/dalilmutabarie">https://github.com/frscodes/dalilmutabarie</a></p>
 <p>التصميم و المصدر المفتوح: يمكنك التواصل معي لإرسال جميع المحتوى اليك بصيغة التي تريدها، متوفربـ XD</p>
 <p>للتواصل معي: <a href="mailto:&#x66;&#114;&#115;&#x63;&#x6f;&#x64;&#101;&#115;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x66;&#114;&#115;&#x63;&#x6f;&#x64;&#101;&#115;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></p>
+  <p>من اجل المعاينة يمكنك زيارة : https://frscodes.github.io/dalilmutabarie/</p>
 </div>
