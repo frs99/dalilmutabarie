@@ -4,6 +4,9 @@ var open = document.getElementsByClassName("open")[0];
 var close = document.getElementsByClassName("close")[0];
 var clickList = document.getElementsByClassName("click-list");
 
+/*startResponsive.onclick = function(){
+    list.classList.toggle("hide");
+};*/
 //for open and close navbar with responsive, and show and hide the icons
     startResponsive.onclick = function(){
         if (list.style.maxHeight === "0px" || list.style.maxHeight === ""){
